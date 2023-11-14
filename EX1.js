@@ -21,7 +21,7 @@ async function obterCoordenadas(cidade) {
         if(response.data.length> 0) {
             const primeiraCidade = response.data[0];
             const {lat, lon} = primeiraCidade;
-            console.log(`Coordenadas de ${cidade}: Latitude ${lat}, Longituded ${lon}`);
+            console.log(`Coordenadas de ${cidade}: Latitude ${lat}, Longitude ${lon}`);
         } else {
             console.log(`Não foi possível encontrar coordenadas para ${cidade}.`);
         }

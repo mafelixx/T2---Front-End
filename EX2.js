@@ -31,3 +31,5 @@ async function obterCoordenadasAtuais(lat, lon) {
 }
 
 obterCoordenadasAtuais(-23.5506507, -46.6333824);
+
+
